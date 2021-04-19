@@ -1,35 +1,58 @@
-You can use the [editor on GitHub](https://github.com/mamidalaramu/mamidalaramu.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+# Projects
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+- ## Detections of Landmines using Thermal Imaging techniques over drone.
+  
+  - Detecting Landmines using thermal sensors and thermal camera to spot the temperature difference, surrounding temperature and landmines.
 
-### Markdown
+- ## Performance of tapered wing with raked winglet for a modeled plane.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+  - Analysis of tapered wing with and without raked winglets is done using ANSYS software.
 
-```markdown
-Syntax highlighted code block
+- ## Analysis over conventional wing and morphed wing.
 
-# Header 1
-## Header 2
-### Header 3
+  - Analysis is done on NACA 0012 and morphed NACA 0012 using chamber level morphing by changing the chamber thickness can improve the performance of the wing.
 
-- Bulleted
-- List
+- ## Larvicide spraying drone.
 
-1. Numbered
-2. List
+  - Using drone, pesticides, nozzle and a gimbal axis system pesticide is sprayed over a field or an area in less time.
 
-**Bold** and _Italic_ and `Code` text
+- ## Haunt Down
 
-[Link](url) and ![Image](src)
-```
+  - Haunt Down is a puzzle game about a person in a haunted house trying to escape.
+  - This game is made using Unity3D.
+  - Game Link: https://mamidalaramu.itch.io/huntdwn
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+- ## Survive
 
-### Jekyll Themes
+  - Survive is a action-adventure game. The player controls Jakob a protagonist, survives in the post-apocalyptic world, defending himself from mutated strains of cordyceps fungus.
+  - This game is made using Unity3D.
+  - Game Link: https://mamidalaramu.itch.io/survive
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/mamidalaramu/mamidalaramu.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+# Skills
 
-### Support or Contact
+- ## Programming Languages
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+  - ### Familiar with
+    
+    - **C**
+    - **C#**
+    - **Java**
+    - **Python**
+
+- ## Software:
+  
+  - ### Experienced with
+  
+    - **Unity3D**
+    - **Blender3D**
+    - **CatiaV5**
+    - **MATLAB**
+    - **ANSYS**
+    - **SolidWorks** *(Modelling)*.
+
+# Contact
+
+- **Mail:** ramukumarlucky@gmail.com
+- **GitHub:** https://github.com/mamidalaramu
+- **LinkedIn:** https://www.linkedin.com/in/mamidala-ramu/
+- **Blender Artists:** https://blenderartists.org/u/mamidalaramu/
