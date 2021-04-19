@@ -1,54 +1,44 @@
 ## Projects
 
-- ### Detections of Landmines using Thermal Imaging techniques over drone.
-  
+- **Detections of Landmines using Thermal Imaging techniques over drone.**
   - Detecting Landmines using thermal sensors and thermal camera to spot the temperature difference, surrounding temperature and landmines.
 
-- ### Performance of tapered wing with raked winglet for a modeled plane.
-
+- **Performance of tapered wing with raked winglet for a modeled plane.**
   - Analysis of tapered wing with and without raked winglets is done using ANSYS software.
 
-- ### Analysis over conventional wing and morphed wing.
-
+- **Analysis over conventional wing and morphed wing.**
   - Analysis is done on NACA 0012 and morphed NACA 0012 using chamber level morphing by changing the chamber thickness can improve the performance of the wing.
 
-- ### Larvicide spraying drone.
-
+- **Larvicide spraying drone.**
   - Using drone, pesticides, nozzle and a gimbal axis system pesticide is sprayed over a field or an area in less time.
 
-- ### Haunt Down
-
+- **Haunt Down**
   - Haunt Down is a puzzle game about a person in a haunted house trying to escape.
   - This game is made using Unity3D.
-  - Game Link: [https://mamidalaramu.itch.io/huntdwn](https://mamidalaramu.itch.io/huntdwn)
+  - *Game Link: [https://mamidalaramu.itch.io/huntdwn](https://mamidalaramu.itch.io/huntdwn)*
 
-- ### Survive
-
+- **Survive**
   - Survive is a action-adventure game. The player controls Jakob a protagonist, survives in the post-apocalyptic world, defending himself from mutated strains of cordyceps fungus.
   - This game is made using Unity3D.
-  - Game Link: [https://mamidalaramu.itch.io/survive](https://mamidalaramu.itch.io/survive)
+  - *Game Link: [https://mamidalaramu.itch.io/survive](https://mamidalaramu.itch.io/survive)*
 
 ## Skills
 
-- ### Programming Languages
+- **Programming Languages**
+  - *Familiar with*
+    - C
+    - C#
+    - Java
+    - Python
 
-  - #### Familiar with
-    
-    - **C**
-    - **C#**
-    - **Java**
-    - **Python**
-
-- ### Software:
-  
-  - #### Experienced with
-  
-    - **Unity3D**
-    - **Blender3D**
-    - **CatiaV5**
-    - **MATLAB**
-    - **ANSYS**
-    - **SolidWorks** *(Modelling)*.
+- **Software:**
+  - *Experienced with*
+    - Unity3D
+    - Blender3D
+    - CatiaV5
+    - MATLAB
+    - ANSYS
+    - SolidWorks *(Modelling)*.
 
 ## Contact
 
