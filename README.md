@@ -1,4 +1,4 @@
-## Projects
+# Projects
 
 - **Detections of Landmines using Thermal Imaging techniques over drone.**
   - Detecting Landmines using thermal sensors and thermal camera to spot the temperature difference, surrounding temperature and landmines.
@@ -22,7 +22,7 @@
   - This game is made using Unity3D.
   - *Game Link: [https://mamidalaramu.itch.io/survive](https://mamidalaramu.itch.io/survive)*
 
-## Skills
+# Skills
 
 - **Programming Languages**
   - *Familiar with*
@@ -40,7 +40,7 @@
     - ANSYS
     - SolidWorks *(Modelling)*.
 
-## Contact
+# Contact
 
 - **Mail:** [ramukumarlucky@gmail.com](mailto:ramukumarlucky@gmail.com)
 - **GitHub:** [https://github.com/mamidalaramu](https://github.com/mamidalaramu)
