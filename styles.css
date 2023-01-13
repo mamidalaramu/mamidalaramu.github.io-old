@@ -8,7 +8,7 @@
 #header{
   /*font-family: 'Poppins', sans-serif;*/
   font-family: "Early-GameBoy";
-  src: url("/mamidalaramu.github.io/fonts/Early-GameBoy.woff2") format("woff2"), url("/mamidalaramu.github.io/fonts/Early-GameBoy.woff") format("woff");
+  src: url("/fonts/Early-GameBoy.woff2") format("woff2"), url("/fonts/Early-GameBoy.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
@@ -18,7 +18,7 @@
 } */
 @font-face {
   font-family: "Early-GameBoy";
-  src: url("/mamidalaramu.github.io/fonts/Early-GameBoy.woff2") format("woff2"), url("/mamidalaramu.github.io/fonts/Early-GameBoy.woff") format("woff");
+  src: url("/fonts/Early-GameBoy.woff2") format("woff2"), url("/fonts/Early-GameBoy.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
