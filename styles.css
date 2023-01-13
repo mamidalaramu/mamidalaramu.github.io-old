@@ -2,17 +2,20 @@
   margin: 0;
   padding: 0;
   /*font-family: 'Poppins', sans-serif;*/
+  box-sizing: border-box;
+
+}
+#header{
+  /*font-family: 'Poppins', sans-serif;*/
   font-family: "Early-GameBoy";
   src: url("/mamidalaramu.github.io/fonts/Early-GameBoy.woff2") format("woff2"), url("/mamidalaramu.github.io/fonts/Early-GameBoy.woff") format("woff");
   font-weight: normal;
   font-style: normal;
-  box-sizing: border-box;
-
 }
-section{
+/* section{
   height: 500px;
   background-color: #080808;
-}
+} */
 @font-face {
   font-family: "Early-GameBoy";
   src: url("/mamidalaramu.github.io/fonts/Early-GameBoy.woff2") format("woff2"), url("/mamidalaramu.github.io/fonts/Early-GameBoy.woff") format("woff");
@@ -96,9 +99,18 @@ nav ul li a:hover::after{
   color: #ff004f;
   
 }
-
-/* ------  about section --------- */
-
-#about{
-
+#footerlinks{
+  font-family: 'Poppins', sans-serif;
+  font-size: 12px;
+  padding: 10px 10%;
+  word-spacing: 5px;
+}
+footer p a{
+  color: #ff004f;
+  text-decoration: none;
+}
+#footerlinks p a:hover{
+  color: #fff;
+  font-weight: bolder;
+  text-decoration: underline;
 }
