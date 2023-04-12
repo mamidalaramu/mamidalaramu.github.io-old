@@ -1,0 +1,286 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'JetBrains Mono', monospace;
+  text-decoration: none;
+  background-color: var(--primary-color);
+  
+}
+html{
+  scroll-behavior: smooth;
+  
+}
+
+:root{
+  --primary-color:#f7f7f7;
+  --secondary-color:#008080;
+}
+
+.dark-theme{
+  --primary-color:#161b21;
+  --secondary-color:#f4a950;
+}
+body{
+  overflow-x: hidden;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  
+}
+
+.slide1{
+  width: 100%;
+  height: 100vh;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+.page{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  scroll-snap-align: start;
+  scroll-behavior: smooth;
+  
+}
+
+.hero-header{
+  width: 100%;
+  height: 100%;
+  min-height: 100vh;
+}
+.wrapper{
+  width: 1280px;
+  max-width: 95%;
+  margin: 0 auto;
+  padding: 0 20px;
+
+}
+header{
+  padding: 40px 0 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.logo{
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;  
+}
+
+nav .togglebtn{
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  top: 45px;
+  right: 3%;
+  z-index: 5;
+  cursor: pointer;
+  display: none;
+
+}
+
+nav .togglebtn span{
+  display: block;
+  background-color: var(--secondary-color);
+  margin: 5px 0px;
+  width: 60%;
+  height: 2px;
+  transition: 0.3s;
+  transition-property: transform, opacity;
+}
+
+nav .navlinks{
+  list-style-type: none;
+
+}
+
+nav .navlinks li{
+  display: inline-block;
+}
+
+nav .navlinks li a{
+  /* color:#e5e5e5; */
+  color:var(--secondary-color);
+  margin-right: 1rem;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 400;
+  position: relative;
+}
+
+nav .navlinks li a::after{
+  content: '';
+  width: 0;
+  height: 3px;
+  background: #ff6392;
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  transition: 0.5s;
+}
+nav ul li a:hover::after{
+  width: 100%;
+}
+
+#icon{
+  text-align: center;
+  cursor: pointer;
+}
+.container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 4rem;
+
+}
+
+.hero-text{
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.hero-text h2{
+  color: var(--secondary-color);
+  font-size: 16px;
+  
+}
+.hero-text h2 span{
+  color: #ff6392;
+  font-size: 18px;
+}
+
+.hero-text h1{
+  margin-top: 1.5rem;
+  
+  font-size: 3rem;
+}
+
+.btn-group{
+  display: block;
+  margin: 45px 0;
+}
+
+.btn-group .btn{
+  border-color: #d5d5d5;
+  color: var(--secondary-color);
+  background-color: var(--primary-color);
+  padding: 12px 25px;
+  margin: 5px 0px;
+  margin-right: 7px;
+  border-radius: 30px;
+  border: 2px solid #e5e5e5;
+  box-shadow: 0 10px 10px -8px rgb(0 0 0 /78%);
+}
+
+.btn.active:hover{
+  border-color: #ff6392;
+
+}
+
+.btn:hover{
+  border-color: #ff6392;
+
+}
+.hero-text .social i{
+  color: var(--secondary-color);
+  font-size: 18px;
+  margin-top: 10px;
+  margin-right: 10px;
+  transition: 0.5s;
+}
+
+.hero-text .social i:hover{
+  color: #ff6392;
+  transform: rotate(360deg);
+}
+
+/* responsive design and display nav bar for small screens */
+
+@media(max-width:930px)
+{
+  nav .togglebtn{
+    display: initial;
+    size: 10px;
+  }
+  /* for toggle button */
+  .click{
+    top: 45px;
+  }
+
+  .click span{
+    position: absolute;
+    margin-top: 12px;
+  }
+  .click span:first-child{
+    transform: rotate(-40deg);
+  }
+  .click span:nth-child(2){
+    opacity: 0;
+    margin: 0;
+  }
+  .click span:last-child{
+    transform: rotate(45deg);
+    top:0;
+
+  }
+  nav .navlinks{
+    position: absolute;
+    top:130px;
+    right:-100%;
+    bottom: 0;
+    width: 50%;
+    height: 100vh;
+    background-color: var(--primary-color);
+    z-index: 3;
+    /* box-shadow: 5px 13px 30px rgb(0,0,0,0.1); */
+    transition: 0.8s;
+    padding: 25px 0px;
+  }
+  nav .navlinks li{
+    display: block;
+ 
+  }
+  nav .navlinks li a{
+    display: block;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  nav .navlinks.open{
+    right:0;
+  }
+}
+
+@media(max-width:768px){
+  .container{
+    flex-direction: column;
+    padding-top: 2rem;
+  }
+  .hero-text{
+    padding: 40px 0px;
+
+  }
+}
+
+
+.exp .script{
+  display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+}
+
+.exp .script p{
+  display: flex;
+  width: 50%;
+  height: 50%;
+  padding: 2%;
+  flex-direction: column;
+}

@@ -1,67 +1,214 @@
 <!DOCTYPE html>
-<html lang="en-US">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE-edge" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Mamidala Ramu Personal Site</title>
-    <meta name="author" content="Ramu Mamidala" />
-    <meta
-      name="discription"
-      content="This is Ramu Mamidala. This is my personal website"
+    <title>Ramu Mamidala</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="script" href="script.js" />
+    <script type="text/javascript" src="script.js"></script>
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./images\favicon_io/apple-touch-icon.png"
     />
-    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images\favicon_io/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./images\favicon_io/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/site.webmanifest" />
+    <!----------------font-------------------------->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800&display=swap"
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@200;300;400;500;600;700;800&display=swap"
       rel="stylesheet"
     />
   </head>
-
   <body>
-    <div id="header">
-      <section class="hero">
-        <div class="container">
-          <nav>
-            <img src="images/logo.png" class="logo" alt="logo" />
-            <ul>
-              <li><a href="#">Home</a></li>
-              <li><a href="#">About</a></li>
-              <li><a href="#">Projects</a></li>
-              <li><a href="#">Exp</a></li>
-              <li><a href="#">Contact</a></li>
-            </ul>
-          </nav>
-          <div class="header-area">
-            <div class="header-text">
-              <h1>Hi, I'm <span>Ramu</span></h1>
-              <p>Aeronautical Engineer</p>
+    <div class="slide1">
+      <div class="page page1" id="Home">
+        <div class="hero-header">
+          <div class="wrapper">
+            <header>
+              <div class="logo">
+                <!-- <i class="fa-solid fa-r"></i> -->
+                <div class="logo-text"></div>
+              </div>
+              <nav>
+                <div class="togglebtn">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </div>
+                <ul class="navlinks">
+                  <li><a href="#Home">Home</a></li>
+                  <li><a href="#Experience">Experience</a></li>
+                  <li><a href="#Projects">Projects</a></li>
+                  <li><a href="#Contact">Contact</a></li>
+                  <li id="icon">🌙</li>
+                </ul>
+                <!-- <div id="icon">🌙</div> -->
+              </nav>
+            </header>
+            <div class="container">
+              <!-- <div class="hero-pic">
+                <img src="./images/pic2.jpg" alt="profile-pic" />
+              </div> -->
+              <div class="hero-text">
+                <h2><span class="input">Hi</span>, I'm</h2>
+                <h1>Ramu Mamidala</h1>
+                <div class="btn-group">
+                  <a href="#" class="btn active">Resume</a>
+                  <a href="#" class="btn">Contact</a>
+                </div>
+                <div class="social">
+                  <a href="https://github.com/mamidalaramu" target="_blank"
+                    ><i class="fa-brands fa-github"></i
+                  ></a>
+                  <a
+                    href="https://www.linkedin.com/in/mamidala-ramu/"
+                    target="_blank"
+                    ><i class="fa-brands fa-linkedin"></i
+                  ></a>
+                  <a
+                    href="https://blenderartists.org/u/mamidalaramu/"
+                    target="_blank"
+                    ><i class="fa-brands fa-blender"></i
+                  ></a>
+                  <a href="https://mamidalaramu.itch.io/" target="_blank"
+                    ><i class="fa-brands fa-itch-io"></i
+                  ></a>
+                  <a href="mailto: ramukumarlucky@gmail.com" target="_blank"
+                    ><i class="fa-brands fa-mail-reply"></i
+                  ></a>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-      </section>
-    </div>
-    <footer>
-      <div id="footerlinks">
-        <p>
-          <a
-            href="https://blenderartists.org/u/mamidalaramu/](https://blenderartists.org/u/mamidalaramu/"
-            title="Blender Artist"
-            >Blender Artist
-          </a>
-          •
-          <a
-            href="https://www.linkedin.com/in/mamidala-ramu/](https://www.linkedin.com/in/mamidala-ramu"
-            title="LinkedIn"
-            >LinkedIn</a
-          >
-          •
-          <a href="https://github.com/mamidalaramu" title="GitHub">GitHub </a>
-          •
-          <a href="ramukumarlucky@gmail.com" title="GMail">GMail</a>
-        </p>
       </div>
-    </footer>
+      <!-- <div class="page experience" id="Experience">
+        <div class="exp">
+          <div class="script">
+            <p>
+              turned IT professional with expertise in IBM Integration Bus, Bash
+              scripting, and automation. I've been working in the IT industry
+              for 2 years and have honed my skills in Developing and Bash
+              scripting.
+              <br />
+              My passion for problem-solving and innovation has led me to excel
+              in my current role, where I am responsible for developing and
+              maintaining IBM Integration Bus solutions for our clients, and
+              have successfully completed several automation projects.
+              <br />
+              When I'm not working, you can find me hiking in the mountains or
+              playing video games."
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="page projects">
+        <div class="collapsible">
+          <label for="project-header">Collapsible using html and CSS</label>
+          <div class="project-title">
+            <h2>
+              Experimental determination of degradation of carbon fiber content
+              in carbon fiber composite subjected to hygrothermal
+              conditions<span class="toggle-icon">&#x25bc;</span>
+            </h2>
+            <p>
+              We have made multiple pieces of plates with different sizes using
+              hand lay-up method and vaccum bagging. We have subjected them to
+              temperature controlled environment along with moisture and room
+              temperature different period of days. We have cut the specimen as
+              per standards for testing in UTM and other machines to find
+              mechanical properties.
+            </p>
+            <p>
+              <strong>Results:</strong> The tensile strength decreased with
+              increase in time duration and temperature of exposure, indicating
+              that the strength of the composite is affected by the moisture and
+              temperature.
+            </p>
+            <div class="project-gallery">
+              <img src="project1-image1.jpg" alt="Project 1 Image 1" />
+              <img src="project1-image2.jpg" alt="Project 1 Image 2" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="project">
+        <div class="project-header">
+          <h2 class="project-title">
+            Telegram bot<span class="toggle-icon">&#x25bc;</span>
+          </h2>
+          <div class="project-details">
+            <p>
+              The Telegram bot is used to compress images and also asks users
+              for image quality which is used to reduce/compress images.
+            </p>
+            <p>
+              <strong>Results:</strong> The bot has been successful in
+              compressing images while maintaining good quality, reducing the
+              file size of images significantly.
+            </p>
+            <div class="project-gallery">
+              <img src="project2-image1.jpg" alt="Project 2 Image 1" />
+              <img src="project2-image2.jpg" alt="Project 2 Image 2" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="project">
+        <div class="project-header">
+          <h2 class="project-title">
+            Building a RC model of aircraft with raked winglet<span
+              class="toggle-icon"
+              >&#x25bc;</span
+            >
+          </h2>
+          <div class="project-details">
+            <p>
+              We have designed the model in Solidworks. We have modeled the
+              plane and simulated it in Ansys software and CFD. We have used
+              laser cutters to cut the parts of the plane and 3D printer to
+              print some parts. It is made using balsa wood and aluminum for
+              spars and support. We have done simulations with raked winglet and
+              without raked winglet.
+            </p>
+            <p>
+              <strong>Results:</strong> The model performed better with the
+              raked winglet, showing better stability and lift-to-drag ratio.
+            </p>
+            <div class="project-gallery">
+              <img src="project3-image1.jpg" alt="Project 3 Image 1" />
+              <img src="project3-image2.jpg" alt="Project 3 Image 2" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="page page4" id="Contact">
+        <h1>Contacts Page</h1>
+      </div> -->
+    </div>
+
+    <script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script>
+    <script type="text/javascript" src="script.js"></script>
   </body>
 </html>
