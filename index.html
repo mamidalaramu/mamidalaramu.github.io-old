@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ramu Mamidala</title>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="script" href="script.js" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="script" href="./script.js" />
     <script type="text/javascript" src="script.js"></script>
     <link
       rel="apple-touch-icon"
@@ -25,7 +25,6 @@
       sizes="16x16"
       href="./images\favicon_io/favicon-16x16.png"
     />
-    <link rel="manifest" href="/site.webmanifest" />
     <!----------------font-------------------------->
     <link
       rel="stylesheet"
@@ -34,8 +33,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@200;300;400;500;600;700;800&display=swap"
       rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@200;300;400;500;600;700;800&display=swap"
     />
   </head>
   <body>
@@ -56,18 +55,14 @@
                 </div>
                 <ul class="navlinks">
                   <li><a href="#Home">Home</a></li>
-                  <li><a href="#Experience">Experience</a></li>
+                  <li><a href="#Aboutme">About Me</a></li>
                   <li><a href="#Projects">Projects</a></li>
                   <li><a href="#Contact">Contact</a></li>
                   <li id="icon">🌙</li>
                 </ul>
-                <!-- <div id="icon">🌙</div> -->
               </nav>
             </header>
             <div class="container">
-              <!-- <div class="hero-pic">
-                <img src="./images/pic2.jpg" alt="profile-pic" />
-              </div> -->
               <div class="hero-text">
                 <h2><span class="input">Hi</span>, I'm</h2>
                 <h1>Ramu Mamidala</h1>
@@ -101,28 +96,97 @@
           </div>
         </div>
       </div>
-      <!-- <div class="page experience" id="Experience">
-        <div class="exp">
-          <div class="script">
-            <p>
-              turned IT professional with expertise in IBM Integration Bus, Bash
-              scripting, and automation. I've been working in the IT industry
-              for 2 years and have honed my skills in Developing and Bash
-              scripting.
-              <br />
-              My passion for problem-solving and innovation has led me to excel
-              in my current role, where I am responsible for developing and
-              maintaining IBM Integration Bus solutions for our clients, and
-              have successfully completed several automation projects.
-              <br />
-              When I'm not working, you can find me hiking in the mountains or
-              playing video games."
-            </p>
+      <div class="slide1 page aboutme" id="Aboutme">
+        <div class="wrapper">
+          <div class="container-aboutme">
+            <div class="center-aboutme">
+              <h1 class="aboutme-text">About Me</h1>
+              <p class="para-aboutme">
+                I am an IT professional with expertise in IBM Integration Bus
+                and Bash scripting. I have honed my skills in developing and
+                automation projects. I am passionate about problem-solving and
+                innovation.
+                <br />
+                I have contributed to the development of a web application that
+                provides a centralized view of servers and worked as part of a
+                team to design and develop the application's UI and backend
+                functionality.
+                <br />
+                I have a keen interest in designing and building
+                remote-controlled aircraft and drones, and have participated in
+                national-level competitions. Outside of work, I enjoy playing
+                cricket, photography, art, and video games.
+              </p>
+              <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('skills')">
+                  Skills
+                </p>
+                <p class="tab-links" onclick="opentab('experience')">
+                  Experience
+                </p>
+                <p class="tab-links" onclick="opentab('education')">
+                  Education
+                </p>
+              </div>
+              <div class="tab-contents active-tab" id="skills">
+                <ul>
+                  <li><span>HTML&CSS</span><br />Web Interfaces</li>
+                  <li><span>JavaScript</span><br />Web Development</li>
+                  <li>
+                    <span>ShellScripting</span><br />Scripting & Automation
+                  </li>
+                  <li>
+                    <span>Java</span><br />Java Applications & Springboot
+                    Applications
+                  </li>
+                  <li><span>Python</span><br />Automation & Tools</li>
+                </ul>
+              </div>
+
+              <div class="tab-contents" id="experience">
+                <ul>
+                  <li>
+                    <span>2021 - present</span><br />IBM Integration Bus
+                    Developer
+                  </li>
+                  <li>
+                    Developed scripts for certificate collection and server
+                    maintenance using APIs
+                  </li>
+                  <li>
+                    Contributed to the development of a web application that
+                    provided a centralized view of servers and allowed users to
+                    view and manage server details, configure services, renew
+                    certificates, import third party certificates, deploy
+                    applications
+                  </li>
+                  <li>
+                    Created key-based encryption and decryption scripts for
+                    enhanced security
+                  </li>
+                  <li>
+                    Develop and Maintain the applications. Helped improve the
+                    application's functionality by identifying and addressing
+                    bugs and implementing new features based on user feedback.
+                  </li>
+                </ul>
+              </div>
+
+              <div class="tab-contents" id="education">
+                <ul>
+                  <li><span>2021</span><br />Associate Software Developer</li>
+                  <li>
+                    <span>2021</span><br />Bachelors in Aeronautical Engineering
+                  </li>
+                  <li><span>2017</span><br />High School +2 STEM Course</li>
+                </ul>
+              </div>
+            </div>
           </div>
         </div>
       </div>
 
-      <div class="page projects">
+      <!-- <div class="page projects">
         <div class="collapsible">
           <label for="project-header">Collapsible using html and CSS</label>
           <div class="project-title">
@@ -207,7 +271,6 @@
         <h1>Contacts Page</h1>
       </div> -->
     </div>
-
     <script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script>
     <script type="text/javascript" src="script.js"></script>
   </body>

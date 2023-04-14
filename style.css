@@ -14,7 +14,11 @@ html{
 
 :root{
   --primary-color:#f7f7f7;
-  --secondary-color:#008080;
+  --secondary-color:#06283df6;
+  /* #062C30
+  #008080 
+  212121
+  1A1C20*/
 }
 
 .dark-theme{
@@ -31,7 +35,7 @@ body{
 .slide1{
   width: 100%;
   height: 100vh;
-  overflow-y: scroll;
+  /* overflow-y: scroll; */
   scroll-snap-type: y mandatory;
   scroll-behavior: smooth;
   overflow-x: hidden;
@@ -44,6 +48,7 @@ body{
   flex-wrap: wrap;
   scroll-snap-align: start;
   scroll-behavior: smooth;
+  /* overflow-x: hidden; */
   
 }
 
@@ -283,4 +288,86 @@ nav ul li a:hover::after{
   height: 50%;
   padding: 2%;
   flex-direction: column;
+}
+
+/*---------------------About me-----------*/
+
+.aboutme{
+  color: var(--secondary-color);
+  display: flex;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+
+.container-aboutme{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 10px;
+
+}
+
+.center-aboutme{
+  /* max-width: 500px; */
+  display: flex;
+  flex-direction: column;
+}
+.aboutme-text{
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 2rem;
+  justify-content: center;
+}
+.para-aboutme{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-bottom: 1rem;
+}
+
+.tab-titles{
+  display: flex;
+  /* flex-direction: column; */
+  margin: 10px 0 20px;
+}
+
+.tab-links{
+  margin-right: 50px;
+  font-size: 18px;
+  font-weight: 400;
+  cursor: pointer;
+  position: relative;
+}
+
+.tab-links::after{
+  content: '';
+  width: 0;
+  height: 3px;
+  background: #ff6392;
+  position: absolute;
+  left: 0;
+  bottom: -8px;
+  transition: 0.5s;
+
+}
+
+.tab-links.active-link::after{
+  width: 50%;
+}
+
+.tab-contents ul li{
+  list-style: none;
+  margin: 10px 0;
+}
+.tab-contents ul li span{
+  color: #b54769;
+  font-size: 14px;
+}
+.tab-contents{
+  display: none;
+}
+.tab-contents.active-tab{
+  display: block;
 }
