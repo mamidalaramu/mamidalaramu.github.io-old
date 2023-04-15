@@ -42,8 +42,8 @@
     />
   </head>
   <body>
-    <div class="slide1">
-      <div class="page page1" id="Home">
+    <div class="slide">
+      <div class="page" id="Home">
         <div class="hero-header">
           <div class="dark-toggle-box">
             <span class="dark-toggle" title="Toggle Dark Mode"></span>
@@ -62,7 +62,7 @@
                 <ul class="navlinks">
                   <li><a href="#Home">Home</a></li>
                   <li><a href="#Aboutme">About Me</a></li>
-                  <li><a href="#Projects">Projects</a></li>
+                  <li><a href="#projects">Projects</a></li>
                   <li><a href="#Contact">Contact</a></li>
                 </ul>
               </nav>
@@ -72,7 +72,12 @@
                 <h2><span class="input">Hi</span>, I'm</h2>
                 <h1>Ramu Mamidala</h1>
                 <div class="btn-group">
-                  <a href="#" class="btn active">Resume</a>
+                  <a
+                    href="/links/MamidalaRamu_Resume.pdf"
+                    target="_blank"
+                    class="btn active"
+                    >Resume</a
+                  >
                   <a href="#" class="btn">Contact</a>
                 </div>
                 <div class="social">
@@ -87,25 +92,25 @@
                   <a
                     href="https://blenderartists.org/u/mamidalaramu/"
                     target="_blank"
-                    ><i class="fa-brands fa-blender"></i
-                  ></a>
+                    ><i class="fa-solid fa-arrows-spin"></i>
+                  </a>
                   <a href="https://mamidalaramu.itch.io/" target="_blank"
                     ><i class="fa-brands fa-itch-io"></i
                   ></a>
                   <a href="mailto: ramukumarlucky@gmail.com" target="_blank"
-                    ><i class="fa-brands fa-mail-reply"></i
-                  ></a>
+                    ><i class="fa-regular fa-envelope"></i>
+                  </a>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="slide1 page aboutme" id="Aboutme">
+      <div class="slide page aboutme" id="Aboutme">
         <div class="wrapper">
           <div class="container-aboutme">
             <div class="center-aboutme">
-              <h1 class="aboutme-text">About Me</h1>
+              <h1 class="sub-title">About Me</h1>
               <p class="para-aboutme">
                 I am an IT professional with expertise in IBM Integration Bus
                 and Bash scripting. I have honed my skills in developing and
@@ -179,7 +184,7 @@
 
               <div class="tab-contents" id="education">
                 <ul>
-                  <li><span>2021</span><br />Associate Software Developer</li>
+                  <!-- <li><span>2021</span><br />Associate Software Developer</li> -->
                   <li>
                     <span>2021</span><br />Bachelors in Aeronautical Engineering
                   </li>
@@ -190,91 +195,68 @@
           </div>
         </div>
       </div>
-
-      <!-- <div class="page projects">
-        <div class="collapsible">
-          <label for="project-header">Collapsible using html and CSS</label>
-          <div class="project-title">
-            <h2>
-              Experimental determination of degradation of carbon fiber content
-              in carbon fiber composite subjected to hygrothermal
-              conditions<span class="toggle-icon">&#x25bc;</span>
-            </h2>
-            <p>
-              We have made multiple pieces of plates with different sizes using
-              hand lay-up method and vaccum bagging. We have subjected them to
-              temperature controlled environment along with moisture and room
-              temperature different period of days. We have cut the specimen as
-              per standards for testing in UTM and other machines to find
-              mechanical properties.
-            </p>
-            <p>
-              <strong>Results:</strong> The tensile strength decreased with
-              increase in time duration and temperature of exposure, indicating
-              that the strength of the composite is affected by the moisture and
-              temperature.
-            </p>
-            <div class="project-gallery">
-              <img src="project1-image1.jpg" alt="Project 1 Image 1" />
-              <img src="project1-image2.jpg" alt="Project 1 Image 2" />
+      <!-------------------Projects--------------------->
+      <div id="projects" class="slide page">
+        <div class="wrapper">
+          <div class="container-aboutme">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="projects-list">
+              <div>
+                <i class="fa-brands fa-phoenix-squadron"></i>
+                <h2>Degradation of Carbon Fiber content</h2>
+                <p>
+                  Degradation of Carbon fiber content subjected to hygrothemal
+                  conditions. In this project, I worked on fabricating carbon
+                  fiber composite plates with different sizes using hand lay-up
+                  method and vaccum bagging method. Then, they are subjected to
+                  heat, moisture in a controlled environment different period of
+                  days. The specimen are cut as per standards for testing in UTM
+                  and Impact testing machines to find mechanical properties.
+                </p>
+                <a
+                  class="ap"
+                  href="./pages/project1.html"
+                  target="b
+                "
+                  >Learn More</a
+                >
+              </div>
+              <div>
+                <i class="fa-solid fa-plane"></i>
+                <h2>RC Model Aircraft</h2>
+                <p>
+                  I was a key contributor to the design and fabrication of the
+                  model using Solidworks. My responsibilities included modeling
+                  the plane and conducting simulations using Ansys software and
+                  CFD. Working collaboratively with my team, we utilized laser
+                  cutters to precisely cut the various parts of the plane and
+                  employed a 3D printer to produce select components. The plane
+                  was constructed from balsa wood and aluminum spars and support
+                  structures. Throughout the design process, we conducted
+                  simulations with both raked winglets and without, in order to
+                  optimize the plane's performance.
+                </p>
+                <a class="ap" href="./pages/project1.html">Learn More</a>
+              </div>
+              <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Image Compression Bot</h2>
+                <p>
+                  The Telegram bot was designed with the specific purpose of
+                  reducing image file sizes while maintaining optimal image
+                  quality. The bot prompts users to specify their preferred
+                  image quality, and then performs the necessary compression
+                  using this information. Since its implementation, the bot has
+                  demonstrated excellent performance in reducing file sizes
+                  while preserving the overall quality of images.
+                </p>
+                <a class="ap" href="./pages/project1.html">Learn More</a>
+              </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="project">
-        <div class="project-header">
-          <h2 class="project-title">
-            Telegram bot<span class="toggle-icon">&#x25bc;</span>
-          </h2>
-          <div class="project-details">
-            <p>
-              The Telegram bot is used to compress images and also asks users
-              for image quality which is used to reduce/compress images.
-            </p>
-            <p>
-              <strong>Results:</strong> The bot has been successful in
-              compressing images while maintaining good quality, reducing the
-              file size of images significantly.
-            </p>
-            <div class="project-gallery">
-              <img src="project2-image1.jpg" alt="Project 2 Image 1" />
-              <img src="project2-image2.jpg" alt="Project 2 Image 2" />
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="project">
-        <div class="project-header">
-          <h2 class="project-title">
-            Building a RC model of aircraft with raked winglet<span
-              class="toggle-icon"
-              >&#x25bc;</span
-            >
-          </h2>
-          <div class="project-details">
-            <p>
-              We have designed the model in Solidworks. We have modeled the
-              plane and simulated it in Ansys software and CFD. We have used
-              laser cutters to cut the parts of the plane and 3D printer to
-              print some parts. It is made using balsa wood and aluminum for
-              spars and support. We have done simulations with raked winglet and
-              without raked winglet.
-            </p>
-            <p>
-              <strong>Results:</strong> The model performed better with the
-              raked winglet, showing better stability and lift-to-drag ratio.
-            </p>
-            <div class="project-gallery">
-              <img src="project3-image1.jpg" alt="Project 3 Image 1" />
-              <img src="project3-image2.jpg" alt="Project 3 Image 2" />
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="page page4" id="Contact">
-        <h1>Contacts Page</h1>
-      </div> -->
+      <!------------Contact--------------->
     </div>
 
     <script defer src="dark.js"></script>

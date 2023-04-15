@@ -4,7 +4,7 @@
 }
 
 *{
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
   padding: 0;
   margin: 0;
   font-family: 'JetBrains Mono', monospace;
@@ -29,16 +29,19 @@ html{
   --secondary-color:#f4a950;
 }
 body{
+  display: flex;
   overflow-x: hidden;
   background-color: var(--primary-color);
   color: var(--secondary-color);
-  
+  /* padding: 1em; */
+  overflow-y: hidden;
+  overflow-x: hidden;
 }
 
-.slide1{
+.slide{
   width: 100%;
   height: 100vh;
-  padding: 1rem;
+  /* padding: 1rem; */
   scroll-snap-type: y mandatory;
   scroll-behavior: smooth;
   overflow-x: hidden;
@@ -132,6 +135,7 @@ nav .navlinks li a::after{
 nav ul li a:hover::after{
   width: 100%;
 }
+/*------------dark-mode--------*/
 .dark-toggle-box{
   margin-top: 40px;
   margin-right: 30px;
@@ -148,8 +152,7 @@ nav ul li a:hover::after{
 .dark .dark-toggle::after {
   content: "🌙";
 }
-
-
+/* -------------------------*/
 .container{
   display: flex;
   justify-content: space-around;
@@ -299,29 +302,10 @@ nav ul li a:hover::after{
     flex-direction: column;
     padding: 5px 70px;
   }
-  .aboutme-text{
+  .sub-title{
     flex-direction: column;
     padding: 5px 70px;
   }
-  .tab-titles{
-  }
-}
-
-
-.exp .script{
-  display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 100%;
-        height: 100%;
-}
-
-.exp .script p{
-  display: flex;
-  width: 50%;
-  height: 50%;
-  padding: 2%;
-  flex-direction: column;
 }
 
 /*---------------------About me-----------*/
@@ -333,12 +317,11 @@ nav ul li a:hover::after{
   padding-bottom: 2%;
 }
 
-
 .container-aboutme{
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  align-items: center;
+  /* align-items: center; */
   padding-top: 10px;
 
 }
@@ -347,9 +330,10 @@ nav ul li a:hover::after{
   display: flex;
   flex-direction: column;
 }
-.aboutme-text{
+.sub-title{
   display: flex;
   flex-direction: column;
+  padding-top: 1rem;
   padding-bottom: 2rem;
   justify-content: center;
 }
@@ -401,4 +385,66 @@ nav ul li a:hover::after{
 }
 .tab-contents.active-tab{
   display: block;
+}
+
+/* ----------------My Projects -----------*/
+#projects{
+  width: 100%;
+  height: 100%;
+  min-height: 100vh;
+  padding: 15px 0;
+}
+
+.projects-list{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+  grid-gap: 10px;
+  margin-top: 20px;
+}
+.projects-list div{
+  /* background: #262626; */
+  padding: 10px;
+  font-size: 13px;
+  font-weight: 300;
+  border-radius: 10px;
+  transition: background 0.5s, transform 0.5s;
+}
+
+p{
+  background: unset;
+}
+.fa-plane, .fa-phoenix-squadron, .fa-code{
+  background: unset;
+}
+
+.projects-list i{
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.projects-list div h2{
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 15px;
+  background: unset;
+}
+.ap{
+  background-color: unset;
+}
+.projects-list div a{
+  text-decoration: none;
+  color: var(--secondary-color);
+  font-size: 12px;
+  margin-top: 20px;
+  display: inline-block;
+}
+.projects-list div:hover{
+  background: #b54769;
+  transform: translateY( -10px);
+}
+
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
 }

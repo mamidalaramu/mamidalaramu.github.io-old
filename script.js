@@ -30,15 +30,8 @@ var typed = new Typed(".input", {
     backSpeed: 90,
     loop: true,
   });
-// function myFunction() {
-//   var element = document.body;
-//   element.classList.toggle("dark-mode");
-//   }
 
-// var darktoggle = document.getElementById("darktoggle");
-// darktoggle.onclick = function () {
-//   document.body.classList.toggle("dark-theme");
-//   };
+  /*-------------nav-bar----------*/
 
 var tablinks = document.getElementsByClassName("tab-links");
 var tabcontents = document.getElementsByClassName("tab-contents");
