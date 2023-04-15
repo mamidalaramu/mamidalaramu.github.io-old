@@ -30,15 +30,15 @@ var typed = new Typed(".input", {
     backSpeed: 90,
     loop: true,
   });
-function myFunction() {
-  var element = document.body;
-  element.classList.toggle("dark-mode");
-  }
+// function myFunction() {
+//   var element = document.body;
+//   element.classList.toggle("dark-mode");
+//   }
 
-var icon = document.getElementById("icon");
-icon.onclick = function () {
-  document.body.classList.toggle("dark-theme");
-  };
+// var darktoggle = document.getElementById("darktoggle");
+// darktoggle.onclick = function () {
+//   document.body.classList.toggle("dark-theme");
+//   };
 
 var tablinks = document.getElementsByClassName("tab-links");
 var tabcontents = document.getElementsByClassName("tab-contents");

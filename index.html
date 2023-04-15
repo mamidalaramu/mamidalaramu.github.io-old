@@ -1,50 +1,56 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <title>Ramu Mamidala</title>
+
+    <meta name="author" content="Ramu Mamidala" />
+    <meta
+      name="description"
+      content="My name is Ramu Mamidala. This is my personal website."
+    />
+    <meta name="telusu" content="naku telusu ra nuv idiki vasthavani" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+
     <link rel="stylesheet" href="./style.css" />
-    <link rel="script" href="./script.js" />
-    <script type="text/javascript" src="script.js"></script>
+
+    <!------------------favicons-------------------->
+
     <link
       rel="apple-touch-icon"
       sizes="180x180"
-      href="./images\favicon_io/apple-touch-icon.png"
+      href="./favicons/favicon_io/apple-touch-icon.png"
     />
     <link
       rel="icon"
       type="image/png"
       sizes="32x32"
-      href="./images\favicon_io/favicon-32x32.png"
+      href="./favicons/favicon_io/favicon-32x32.png"
     />
     <link
       rel="icon"
       type="image/png"
       sizes="16x16"
-      href="./images\favicon_io/favicon-16x16.png"
+      href="./favicons/favicon_io/favicon-16x16.png"
     />
-    <!----------------font-------------------------->
+
+    <!----------------font-icon-------------------------->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@200;300;400;500;600;700;800&display=swap"
     />
   </head>
   <body>
     <div class="slide1">
       <div class="page page1" id="Home">
         <div class="hero-header">
+          <div class="dark-toggle-box">
+            <span class="dark-toggle" title="Toggle Dark Mode"></span>
+          </div>
           <div class="wrapper">
             <header>
               <div class="logo">
-                <!-- <i class="fa-solid fa-r"></i> -->
                 <div class="logo-text"></div>
               </div>
               <nav>
@@ -58,7 +64,6 @@
                   <li><a href="#Aboutme">About Me</a></li>
                   <li><a href="#Projects">Projects</a></li>
                   <li><a href="#Contact">Contact</a></li>
-                  <li id="icon">🌙</li>
                 </ul>
               </nav>
             </header>
@@ -271,6 +276,9 @@
         <h1>Contacts Page</h1>
       </div> -->
     </div>
+
+    <script defer src="dark.js"></script>
+
     <script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script>
     <script type="text/javascript" src="script.js"></script>
   </body>
