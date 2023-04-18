@@ -1,4 +1,25 @@
 *{
   margin: 0;
   padding: 0;
+  color: #DFFFD8;
+}
+canvas{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    color: #DFFFD8;
+}
+.click-me{
+  width: 150px;
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+}
+
+.click-me h3, .click-me a{
+  text-align: center;
+  text-decoration: none;
+  color: black;
 }
