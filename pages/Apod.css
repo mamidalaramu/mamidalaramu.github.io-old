@@ -39,9 +39,9 @@ html{
 }
 
 #imageclass{
-  max-width: 60%; 
+  max-width: 90%; 
   max-height: 70%; 
-  margin: auto; 
+  margin: 10px; 
   display: block; 
 }
 
@@ -68,7 +68,7 @@ html{
   display: flex;
   justify-content: center;
   flex-direction: column;
-  margin: 1rem 3rem 1rem 3rem;
+  margin: 1rem 1.4rem 1rem 1.4rem;
 }
 #doi{
   display: flex;
@@ -82,6 +82,13 @@ html{
   justify-content: center;
   padding: 10px;
 }
+
+.just-clock{
+display: flex;
+justify-content: center;
+padding: 10px;
+}
+
 #credits{
   display: flex;
   justify-content: center;

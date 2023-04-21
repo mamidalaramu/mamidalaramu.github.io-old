@@ -16,10 +16,11 @@ html{
 }
 
 :root{
-  --primary-color:#f7f7f7;
+  --primary-color:#DFFFD8;
   --secondary-color:#06283df6;
   --third-color:#E86A33;
   /* #062C30
+  #f7f7f7
   #008080 
   212121
   1A1C20*/
@@ -64,7 +65,7 @@ body{
 }
 .wrapper{
   width: 1280px;
-  max-width: 95%;
+  max-width: 90%;
   margin: 0 auto;
   padding: 0 20px;
 
@@ -210,6 +211,9 @@ nav ul li a:hover::after{
 .btn:hover{
   border-color:var(--third-color);
 
+}
+.social{
+  margin-left: 2px;
 }
 .hero-text .social i{
   color: var(--secondary-color);
@@ -528,6 +532,7 @@ form input, form textarea{
   }
   .para-aboutme{
     flex-direction: column;
+    padding-right: 20px;
     /* padding: 5px 20px; */
   }
   .sub-title{

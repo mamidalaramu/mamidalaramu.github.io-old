@@ -14,7 +14,7 @@ async function getAPOS(){
   document.getElementById("imageclass").alt = title;
 }
 
-document.getElementById("toi").textContent  = "test-title";
-document.getElementById("doi").textContent = "This is an example/testto see the font size and weight";
-document.getElementById("imageclass").alt = "alt section iamge description";
+// document.getElementById("toi").textContent  = "test-title";
+// document.getElementById("doi").textContent = "This is an example/testto see the font size and weight";
+// document.getElementById("imageclass").alt = "alt section iamge description";
 getAPOS();
